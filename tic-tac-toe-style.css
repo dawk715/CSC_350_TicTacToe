@@ -1,0 +1,39 @@
+/* Button background is blue with a black border */
+button {
+    background-color: #3498db;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    border: 0px;
+}
+
+/* Styles the table cells to look like a tic-tac-toe grid */
+table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px;
+    width: 75px;
+    height: 75px;
+    font-size: 20px;
+    border: 3px solid #040404;
+    color: white;
+}
+
+/* Darker blue background on hover */
+button:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="submit"]:focus {
+    background-color: #04469d;
+    text-decoration: none;
+    outline: none;
+}
+
+.resetbutton {
+    width:auto;
+    margin:2rem 0;
+}
